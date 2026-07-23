@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 540">
-	<title>The titlepage for the Standard Ebooks edition of A Book-Lover’s Holiday in the Open, by Theodore Roosevelt</title>
+	<title>The titlepage for the Standard Ebooks edition of A Book-Lover’s Holidays in the Open, by Theodore Roosevelt</title>
 	<style type="text/css">
 		text{
 			font-family: "League Spartan";
@@ -17,7 +17,7 @@
 		}
 	</style>
 	<text class="title" x="700" y="130">A BOOK-LOVER’S</text>
-	<text class="title" x="700" y="230">HOLIDAY</text>
+	<text class="title" x="700" y="230">HOLIDAYS</text>
 	<text class="title" x="700" y="330">IN THE OPEN</text>
 	<text class="author" x="700" y="490">THEODORE ROOSEVELT</text>
 </svg>
