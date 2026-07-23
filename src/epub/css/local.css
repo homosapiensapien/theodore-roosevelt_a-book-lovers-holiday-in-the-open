@@ -3,8 +3,8 @@
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
+	font-variant: small-caps;
 	text-align: center;
-  font-variant: small-caps;
 }
 
 section[epub|type~="dedication"] > *{
@@ -107,14 +107,14 @@ section[epub|type~="epigraph"] > *{
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
 }
-/* End poems*/
+/* End poems */
 
 /* Start foreword */
 section#foreword footer{
-  text-align: right;
+	text-align: right;
 }
 
 section#foreword footer p[epub|type~="z3998:signature"]{
-  font-variant: small-caps;
+	font-variant: small-caps;
 }
 /* End foreword */
