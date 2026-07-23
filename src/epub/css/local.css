@@ -108,3 +108,9 @@ section[epub|type~="epigraph"] > *{
 	display: none;
 }
 /* End poems*/
+
+/* Start foreword */
+section#foreword footer{
+  text-align: right;
+}
+/* End foreword */
