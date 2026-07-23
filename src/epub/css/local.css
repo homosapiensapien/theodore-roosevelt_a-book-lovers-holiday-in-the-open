@@ -113,4 +113,8 @@ section[epub|type~="epigraph"] > *{
 section#foreword footer{
   text-align: right;
 }
+
+section#foreword footer p[epub|type~="z3998:signature"]{
+  font-variant: small-caps;
+}
 /* End foreword */
