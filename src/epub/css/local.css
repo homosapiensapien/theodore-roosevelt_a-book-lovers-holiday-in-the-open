@@ -158,3 +158,51 @@ figcaption p + p{
 	text-indent: 0;
 }
 /* End figures */
+
+/* Start Appendix A */
+section#appendix-a blockquote header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+	text-align: initial;
+}
+
+section#appendix-a blockquote footer{
+	margin-top: 1em;
+	text-align: center;
+}
+
+section#appendix-a blockquote footer p{
+	text-indent: 0;
+}
+
+section#appendix-a blockquote footer p:first-child{
+	text-align: right;
+}
+
+section#appendix-a blockquote footer p:last-child{
+	margin-top: 1em;
+}
+
+section#appendix-a blockquote footer span[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+section#appendix-a blockquote:lang(fr){
+	font-style: italic;
+}
+/* End Appendix A */
+
+/* Start letters */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+p[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+/* End letters */
