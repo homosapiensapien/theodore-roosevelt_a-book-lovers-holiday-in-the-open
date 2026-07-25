@@ -206,3 +206,9 @@ p[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 /* End letters */
+
+/* Start Appendix B */
+section#appendix-b ol {
+	list-style-type: none;
+}
+/* End Appendix B */
