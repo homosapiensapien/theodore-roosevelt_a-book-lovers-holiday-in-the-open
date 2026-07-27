@@ -159,6 +159,12 @@ figcaption p + p{
 }
 /* End figures */
 
+/* Ch. 7 */
+section#chapter-7 blockquote p:first-child {
+	text-indent: 1em;
+}
+/* End ch. 7 */
+
 /* Start Appendix A */
 section#appendix-a blockquote header{
 	font-variant: small-caps;
