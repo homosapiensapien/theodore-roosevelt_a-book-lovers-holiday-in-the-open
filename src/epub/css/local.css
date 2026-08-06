@@ -160,7 +160,7 @@ figcaption p + p{
 /* End figures */
 
 /* Ch. 7 */
-section#chapter-7 blockquote p:first-child {
+section#chapter-7 blockquote p:first-child{
 	text-indent: 1em;
 }
 /* End ch. 7 */
@@ -214,7 +214,7 @@ p[epub|type~="z3998:salutation"]{
 /* End letters */
 
 /* Start Appendix B */
-section#appendix-b ol {
+section#appendix-b ol{
 	list-style-type: none;
 }
 /* End Appendix B */
