@@ -67,8 +67,13 @@
 		<meta property="schema:alternateName" refines="#author">Theodore Roosevelt Jr.</meta>
 		<link href="https://en.wikipedia.org/wiki/Theodore_Roosevelt" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79027239.html" refines="#author" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wfw</meta>
+		<dc:contributor id="illustrator">Alexander Lambert</dc:contributor>
+		<meta property="file-as" refines="#illustrator">Lambert, Alexander</meta>
+		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Theodore Pitman</dc:contributor>
 		<meta property="file-as" refines="#artist">Pitman, Theodore</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -93,6 +98,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
