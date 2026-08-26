@@ -46,14 +46,16 @@
 		<dc:subject id="subject-5">Southwest, New -- Description and travel</dc:subject>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh85125673</meta>
-		<meta property="schema:genre">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="schema:genre">Adventure</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<dc:description id="description">Theodore Roosevelt weaves his love of reading with his recount of his travels through the Americas.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;A Book-Lover’s Holidays in the Open&lt;/i&gt; is a collection of essays written by former U.S. president &lt;a href="https://standardebooks.org/ebooks/theodore-roosevelt"&gt;Theodore Roosevelt&lt;/a&gt; about his expeditions through the Americas following his early nineteenth-century presidency. In it, Roosevelt takes readers on a cougar hunt in the Grand Canyon, through the Andes and Northern Patagonia, to a Mississippi River bird reserve, and to a Hopi snake dance, among others.&lt;/p&gt;
+			&lt;p&gt;Roosevelt blends his love for reading and literature with these adventures, giving readers a look into the books he would have brought on his outdoor journeys.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/34135</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/bookloversholida00roos</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
@@ -62,30 +64,29 @@
 		<link href="https://github.com/standardebooks/theodore-roosevelt_a-book-lovers-holidays-in-the-open" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Theodore Roosevelt</dc:creator>
 		<meta property="file-as" refines="#author">Roosevelt, Theodore</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="schema:alternateName" refines="#author">Theodore Roosevelt Jr.</meta>
 		<link href="https://en.wikipedia.org/wiki/Theodore_Roosevelt" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79027239.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
+		<dc:contributor id="artist">Theodore Pitman</dc:contributor>
+		<meta property="file-as" refines="#artist">Pitman, Theodore</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">David Edwards</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Edwards, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Carla Foust</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Foust, Carla</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
+		<dc:contributor id="transcriber-3">Jana Srna</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Srna, Jana</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-4">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-4" rel="schema:url"/>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Nathaniel Woo</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Woo, Nathaniel</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
