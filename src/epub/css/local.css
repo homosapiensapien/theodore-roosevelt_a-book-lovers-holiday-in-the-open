@@ -107,11 +107,11 @@ p span.i1{
 /* End poems */
 
 /* Start foreword */
-section#foreword footer{
+#foreword footer{
 	text-align: right;
 }
 
-section#foreword footer p[epub|type~="z3998:signature"]{
+#foreword footer p[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 /* End foreword */
@@ -138,36 +138,36 @@ figcaption{
 /* End figures */
 
 /* Ch. 7 */
-section#chapter-7 blockquote p:first-child{
+#chapter-7 blockquote p:first-child{
 	text-indent: 1em;
 }
 /* End ch. 7 */
 
 /* Start Appendix A */
-section#appendix-a blockquote header{
+#appendix-a blockquote header{
 	font-variant: small-caps;
 	margin-bottom: 1em;
 	text-align: initial;
 }
 
-section#appendix-a blockquote footer{
+#appendix-a blockquote footer{
 	margin-top: 1em;
 	text-align: center;
 }
 
-section#appendix-a blockquote footer p{
+#appendix-a blockquote footer p{
 	text-indent: 0;
 }
 
-section#appendix-a blockquote footer p:first-child{
+#appendix-a blockquote footer p:first-child{
 	text-align: right;
 }
 
-section#appendix-a blockquote footer p:last-child{
+#appendix-a blockquote footer p:last-child{
 	margin-top: 1em;
 }
 
-section#appendix-a blockquote footer span[epub|type~="z3998:signature"]{
+#appendix-a blockquote footer span[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 /* End Appendix A */
@@ -188,7 +188,7 @@ p[epub|type~="z3998:salutation"]{
 /* End letters */
 
 /* Start Appendix B */
-section#appendix-b ol{
+#appendix-b ol{
 	list-style-type: none;
 }
 /* End Appendix B */
