@@ -139,13 +139,25 @@ figcaption{
 }
 /* End figures */
 
-/* Ch. 7 */
+/* Start letters */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+p[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+/* End letters */
+
 #chapter-7 blockquote p:first-child{
 	text-indent: 1em;
 }
-/* End ch. 7 */
 
-/* Start Appendix A */
 blockquote[xml|lang]{
 	font-style: italic;
 }
@@ -176,25 +188,7 @@ blockquote[xml|lang]{
 #appendix-a blockquote footer span[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
-/* End Appendix A */
 
-/* Start letters */
-footer{
-	margin-top: 1em;
-	text-align: right;
-}
-
-[epub|type~="z3998:salutation"] + p{
-	text-indent: 0;
-}
-
-p[epub|type~="z3998:salutation"]{
-	font-variant: small-caps;
-}
-/* End letters */
-
-/* Start Appendix B */
 #appendix-b ol{
 	list-style-type: none;
 }
-/* End Appendix B */
