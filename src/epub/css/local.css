@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
@@ -76,6 +77,12 @@ section[epub|type~="epigraph"] > *{
 /* End full-page epigraphs */
 
 /* Start poems */
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -93,11 +100,6 @@ section[epub|type~="epigraph"] > *{
 
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:poem"] header p{
-	font-variant: small-caps;
-	font-weight: bold;
 }
 
 p span.i1{
@@ -144,6 +146,10 @@ figcaption{
 /* End ch. 7 */
 
 /* Start Appendix A */
+blockquote[xml|lang]{
+	font-style: italic;
+}
+
 #appendix-a blockquote header{
 	font-variant: small-caps;
 	margin-bottom: 1em;
