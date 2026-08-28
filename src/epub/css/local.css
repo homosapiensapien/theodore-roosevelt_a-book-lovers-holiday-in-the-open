@@ -173,6 +173,15 @@ blockquote[xml|lang]{
 	text-align: center;
 }
 
+#appendix-a table{
+	margin-left: auto;
+	text-align: right;
+}
+
+#appendix-a table tr td:first-child{
+	text-align: center;
+}
+
 #appendix-a blockquote footer p{
 	text-indent: 0;
 }
